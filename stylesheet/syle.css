@@ -1,0 +1,50 @@
+.lefthead
+{
+    float:left;
+    width:50%;
+    text-align-last: right;
+    
+}
+.righthead
+{
+    float: right;
+    width:50%;
+    text-align: left;
+    padding: 0px;
+}
+ul li{
+    display: inline;
+  }
+
+  .baner3
+  {
+      display: flex;
+      justify-content: center;
+  }
+
+  .baner3 > div {
+  text-align: left;
+  margin: 20px;
+  padding: 20px;
+  text-orientation: sideways-right;
+  
+}
+
+.baner3left
+{
+    justify-content: flex-end;
+    margin-left: 30px;
+}
+.baner3{
+    padding: 70px,70px,10px,10px ;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
