@@ -48,3 +48,17 @@ ul li{
   display: inline-block;
   font-size: 16px;
 }
+.Get-started
+  {
+      display: flex;
+      justify-content: space-between;
+      
+      
+  }
+
+  .getstarted_c 
+  {
+      box-sizing: border-box;
+      margin-left: 20 px;
+      width : 30%;
+  }
