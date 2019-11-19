@@ -48,17 +48,118 @@ ul li{
   display: inline-block;
   font-size: 16px;
 }
-.Get-started
-  {
-      display: flex;
-      justify-content: space-between;
-      
-      
+
+.baner5
+{
+    display: grid;
+    justify-content: center;
+    height: 600px;
+    grid-template-columns: 400px 400px;
+    grid-gap:10px;
+    padding:10px;
+    background-image: url("/stylesheet/images/hbg6.png");
+}
+.baner5 > div{
+    text-align: center;
+    padding:10px 0;
+    margin: 100px,100px;
+
+}
+
+.b5-1
+{
+    grid-column: 1/span 2;
+}
+.b5-2
+{
+    background-color: white;
+}
+.b5-3
+{
+    background-color: white;
+}
+
+.baner7
+{
+    
+    margin: 100px, 200px ;
+    
+}
+.b7
+{
+   display:flex;
+   justify-content: space-between;
+   width : 1000px ;
+   margin-left: 10%;
+}
+
+.b7-2
+{
+    padding: 20px;
+    margin: 100px, 100px;
+    box-sizing: border-box;
+    width :35%
+}
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #4CAF50;
+    display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 15px 32px;
+  }
+  
+  .baner8
+  {  display :flex;
+      background-color: gray;
+      padding: 20px;
+      margin: 20px, 20px;
+      justify-content: center;
+    
   }
 
-  .getstarted_c 
-  {
-      box-sizing: border-box;
-      margin-left: 20 px;
-      width : 30%;
+  .baner9{
+    background-color:darkgray;
   }
+
+  .baner9g
+  {
+      display: grid;
+      justify-content: center;
+      grid-template-columns: 400px 400px ;
+      padding: 20px 0;
+     
+      color:white;
+      
+  }
+  .b9{
+    display:flex;
+    justify-content: space-between;
+    width : 1000px ;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  .b9a{
+    padding: 20px;
+    margin: 100px, 100px;
+    box-sizing: border-box;
+    width :35%
+  }
+  .footer
+  { 
+      background-color: black;
+  }
+  .footer1
+  {
+    display:flex;
+    justify-content: space-between;
+    width : 1000px ;
+    margin-left: 10%;
+    margin-right: 10% 
+}
+.f1 {
+    margin: 10px 20px 20px 10px;
+}
+
