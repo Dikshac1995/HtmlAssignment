@@ -103,15 +103,11 @@ ul li{
     text-align: center;
     padding: 70px;
 }
+ 
 #p3{
     text-transform: capitalize;
 }
-.b4{
-    display:flex;
-    box-sizing: border-box;
-    padding: 40px;
-    margin-left: 150px;
-}
+
 .button2
 {
         background-color: white; /* Green */
@@ -122,9 +118,46 @@ ul li{
         width: 80px;
         border-radius:50%;
 }
+.b4{
+    display:block;
+    position: relative;
+    
+}
+.dotted
+{
+    margin-top: 50%;
+}
+.flex-container
+{
+    display:flex;
+    flex-direction: row;
+    
+}
+.flex-container > div {
+    
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 10px;
+  }
+.numimg
+{
+
+    background-color: brown;
+    width:50px;
+    height: 50px;
+    position: absolute;
+    left:25px;
+    top:90px;
+}
+
 .b42
 {
     padding-top: 25px;
+}
+{
+
 }
 
 .baner5
@@ -198,6 +231,10 @@ ul li{
     
     margin: 100px, 200px ;
     
+}
+.b3img
+{
+    outline: rgb(193, 206, 194) solid 10px;
 }
 .b7
 {
@@ -282,7 +319,7 @@ ul li{
 .f1 {
     margin: 10px 20px 20px 10px;
 }
- @media only screen and (max-width="500px")
+ @media only screen and (max-width:"500px")
  {
    .baner3{
        display:none;
