@@ -1,25 +1,62 @@
-.lefthead
+
+
+.header
 {
-    float:left;
-    width:50%;
-    text-align-last: right;
+
+  display: inline;
+    width:auto;
     
 }
-.righthead
+.headerleft
+{
+    float:left;
+    width:50%
+    
+}
+.headerright{
+    float:right;
+    margin-left: 20%;
+    margin-top: 50%;
+    padding: 100px;
+}
+.headlogo
 {
     float: right;
-    width:50%;
-    text-align: left;
-    padding: 0px;
+}
+.headeright-top
+{
+    float: left;
+}
+.headeright-bottum
+{
+    float: right;
 }
 ul li{
     display: inline;
+  }
+
+  .baner2.1
+  {  display :flex;
+      background-color: gray;
+      padding: 20px;
+      margin: 20px, 20px;
+      justify-content: center;
+    
+  }
+  .leftsymbol
+  {
+      height: 90px;
+      width:150px;
+      padding: 25px;
+      background-color: chartreuse;
+      text-align: center;
   }
 
   .baner3
   {
       display: flex;
       justify-content: center;
+      margin:10px;
   }
 
   .baner3 > div {
@@ -33,10 +70,13 @@ ul li{
 .baner3left
 {
     justify-content: flex-end;
-    margin-left: 30px;
+    margin-left: 100px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 .baner3{
     padding: 70px,70px,10px,10px ;
+    display:flex;
 }
 .button {
     background-color: #4CAF50;
@@ -47,6 +87,44 @@ ul li{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 20px;
+}
+.baner3right
+{
+    border-block:2px;
+    border-block-color:grey;
+}
+.baner4
+{
+    background-image: url("images/testimonial-bg.jpg");
+    margin: 20px 20px ;
+    height: 500px;
+    color:white;
+    text-align: center;
+    padding: 70px;
+}
+#p3{
+    text-transform: capitalize;
+}
+.b4{
+    display:flex;
+    box-sizing: border-box;
+    padding: 40px;
+    margin-left: 150px;
+}
+.button2
+{
+        background-color: white; /* Green */
+        border: none;
+        color: green;
+        padding: 20px;
+        text-align: center;
+        width: 80px;
+        border-radius:50%;
+}
+.b42
+{
+    padding-top: 25px;
 }
 
 .baner5
@@ -73,12 +151,48 @@ ul li{
 .b5-2
 {
     background-color: white;
+    margin-bottom: 20px;
 }
 .b5-3
 {
     background-color: white;
+    margin-bottom: 20px;
 }
+.baner6
+{
+    background-image: url("/stylesheet/images/hbg5.png");
+    text-align: center;
+    padding: 88px;
+    color: white;
+}
+.b6-1
+{
+    display: flex;
+    justify-content: space-between;
+    padding:20px;
+    margin-top: 40px;
+    
+}
+.b6-2
+{
+    box-sizing: border-box;
+    width:400px;
+    padding-top: 27px;
+    
 
+}
+.b6-4
+{
+    display: flex;
+    margin-right: -25px;
+    justify-content: space-between;
+}
+#p4
+{
+  margin-left: 200px;
+  margin-right: 210px;
+  margin-bottom: 25px;
+}
 .baner7
 {
     
@@ -109,6 +223,12 @@ ul li{
   margin: 4px 2px;
   cursor: pointer;
   padding: 15px 32px;
+  border-radius: 20px;
+  width:200px;
+  }
+  .button2{
+      border-radius: 20px;
+      width:400px;
   }
   
   .baner8
@@ -162,4 +282,9 @@ ul li{
 .f1 {
     margin: 10px 20px 20px 10px;
 }
-
+ @media only screen and (max-width="500px")
+ {
+   .baner3{
+       display:none;
+   }
+ }
