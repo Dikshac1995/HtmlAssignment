@@ -1,35 +1,9 @@
-
-
-.header
+*{width:auto;
+margin:auto;}
+.row
 {
-
-  display: inline;
-    width:auto;
-    
-}
-.headerleft
-{
-    float:left;
-    width:50%
-    
-}
-.headerright{
-    float:right;
-    margin-left: 20%;
-    margin-top: 50%;
-    padding: 100px;
-}
-.headlogo
-{
-    float: right;
-}
-.headeright-top
-{
-    float: left;
-}
-.headeright-bottum
-{
-    float: right;
+    margin:auto;
+    width:100%;
 }
 ul li{
     display: inline;
@@ -48,7 +22,7 @@ ul li{
       height: 90px;
       width:150px;
       padding: 25px;
-      background-color: chartreuse;
+      background-color: #8bde3878;
       text-align: center;
   }
 
@@ -97,7 +71,7 @@ ul li{
 .baner4
 {
     background-image: url("images/testimonial-bg.jpg");
-    margin: 20px 20px ;
+    
     height: 500px;
     color:white;
     text-align: center;
@@ -144,12 +118,13 @@ ul li{
 .numimg
 {
 
-    background-color: brown;
+    font-size: 40px;
     width:50px;
-    height: 50px;
+    height: 100px;
     position: absolute;
     left:25px;
-    top:90px;
+    top: 78px;
+    color: #0080004d;
 }
 
 .b42
@@ -185,6 +160,7 @@ ul li{
 {
     background-color: white;
     margin-bottom: 20px;
+    padding-block: 70px;
 }
 .b5-3
 {
@@ -213,6 +189,16 @@ ul li{
     padding-top: 27px;
     
 
+}
+.imgb6-2
+{
+    border-radius: 50%; 
+    border: 8px solid;
+    border-color: #89a023ad;
+    height: 125px;
+
+
+    padding :10px;
 }
 .b6-4
 {
