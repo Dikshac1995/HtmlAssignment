@@ -1,13 +1,50 @@
-*{width:auto;
-margin:auto;}
-.row
+.container1
 {
-    margin:auto;
-    width:100%;
+    width: 900px;
+    margin: auto;
+    display: flex;
 }
-ul li{
-    display: inline;
+.top_right{
+    padding-top: 40px;
+    padding-left: 60px;
+}
+.top-up
+{
+    display: flex;
+    margin-left: 25px;
+}
+.top-up .about-left >h4{
+    font-family: 'satisfy_regular';
+color:#5c5c5c;
+
+}
+.baner1
+{
+    background-color: #0000006b;
+}
+.bA > div
+{
+    padding: 15px;
+}
+.flex-container{
+    width:950px;
+    margin:auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
   }
+  
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: white;
+  }
+
 
   .baner2.1
   {  display :flex;
@@ -17,6 +54,15 @@ ul li{
       justify-content: center;
     
   }
+ .left{
+     padding:150px;
+     width: 30%;
+ }
+ .rights
+ {
+     width:70%;
+     padding-top: 60px;
+ }
   .leftsymbol
   {
       height: 90px;
@@ -25,35 +71,26 @@ ul li{
       background-color: #8bde3878;
       text-align: center;
   }
-
-  .baner3
+  .butt1
   {
-      display: flex;
-      justify-content: center;
-      margin:10px;
+    border: none;
+    padding: 15px 32px;
+    width: 45%;
+    background-color: #93ad26c7;
+    border-radius: 7px;
+    margin :40px 160px;
+    color:white;
+  }
+  
+  .baner2
+  {
+    background-image: url("/stylesheet/images/hbg2.png");
+    height: 450px;
   }
 
-  .baner3 > div {
-  text-align: left;
-  margin: 20px;
-  padding: 20px;
-  text-orientation: sideways-right;
-  
-}
-
-.baner3left
-{
-    justify-content: flex-end;
-    margin-left: 100px;
-    padding: 10px;
-    box-sizing: border-box;
-}
-.baner3{
-    padding: 70px,70px,10px,10px ;
-    display:flex;
-}
+    
 .button {
-    background-color: #4CAF50;
+    background-color:#a7ce38;;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -61,7 +98,22 @@ ul li{
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-  border-radius: 20px;
+  border-radius: 5px;
+  padding-top: 10px;
+}
+.Aboutus 
+{
+    padding-top: 100px;
+
+    width: 70%;
+}
+.butt2{
+    background-color: #93ad26c7;
+    background-color: gren;
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: white;
+    border: none;
 }
 .baner3right
 {
@@ -75,7 +127,10 @@ ul li{
     height: 500px;
     color:white;
     text-align: center;
-    padding: 70px;
+}
+.dotted
+{
+    padding-top: 70px;
 }
  
 #p3{
@@ -92,6 +147,7 @@ ul li{
         width: 80px;
         border-radius:50%;
 }
+
 .b4{
     display:block;
     position: relative;
@@ -101,11 +157,16 @@ ul li{
 {
     margin-top: 50%;
 }
+.search-bu
+{
+    border:3px solid silver;
+    border-radius: 10px;
+}
 .flex-container
 {
     display:flex;
     flex-direction: row;
-    
+    width:900px;
 }
 .flex-container > div {
     
@@ -119,7 +180,7 @@ ul li{
 {
 
     font-size: 40px;
-    width:50px;
+    width:35px;
     height: 100px;
     position: absolute;
     left:25px;
@@ -131,18 +192,11 @@ ul li{
 {
     padding-top: 25px;
 }
-{
 
-}
 
 .baner5
 {
-    display: grid;
-    justify-content: center;
-    height: 600px;
-    grid-template-columns: 400px 400px;
-    grid-gap:10px;
-    padding:10px;
+    
     background-image: url("/stylesheet/images/hbg6.png");
 }
 .baner5 > div{
@@ -150,6 +204,17 @@ ul li{
     padding:10px 0;
     margin: 100px,100px;
 
+}
+.container2
+{
+    width:900px;
+    margin:auto;
+    display: grid;
+    justify-content: center;
+    height: 600px;
+    grid-template-columns: 400px 400px;
+    grid-gap:10px;
+    padding:10px;
 }
 
 .b5-1
@@ -160,62 +225,65 @@ ul li{
 {
     background-color: white;
     margin-bottom: 20px;
-    padding-block: 70px;
+    padding: 30px;
 }
 .b5-3
 {
     background-color: white;
     margin-bottom: 20px;
+    padding: 30px;
 }
 .baner6
 {
     background-image: url("/stylesheet/images/hbg5.png");
+    padding: 60px;
+}  
+.container3
+{
+    width:900px;
+    margin: auto;
     text-align: center;
-    padding: 88px;
+
     color: white;
 }
 .b6-1
 {
-    display: flex;
-    justify-content: space-between;
-    padding:20px;
-    margin-top: 40px;
-    
+    display:flex;
+    justify-content:space-between;
+    padding:25px;
 }
-.b6-2
-{
-    box-sizing: border-box;
-    width:400px;
-    padding-top: 27px;
-    
+.b6-2{
+    width: 30%;
 
 }
+.butt3
+{
+    background-color: #95b528;
+    border: none;
+}
+.butt4
+{
+    background-color: #92ab26;
+    border: none;
+}
+
+
 .imgb6-2
 {
     border-radius: 50%; 
     border: 8px solid;
-    border-color: #89a023ad;
-    height: 125px;
-
-
+    border-color: #b6d433;
+    height: 140px;
     padding :10px;
 }
-.b6-4
-{
-    display: flex;
-    margin-right: -25px;
-    justify-content: space-between;
-}
-#p4
-{
-  margin-left: 200px;
-  margin-right: 210px;
-  margin-bottom: 25px;
-}
+
+
 .baner7
 {
     
-    margin: 100px, 200px ;
+    width:900px;
+    margin:auto;
+    padding-bottom: 25px;
     
 }
 .b3img
@@ -226,88 +294,125 @@ ul li{
 {
    display:flex;
    justify-content: space-between;
-   width : 1000px ;
-   margin-left: 10%;
-}
 
+   
+}
 .b7-2
 {
-    padding: 20px;
-    margin: 100px, 100px;
-    box-sizing: border-box;
-    width :35%
+    width:30%;
 }
-.button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #4CAF50;
-    display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-  padding: 15px 32px;
-  border-radius: 20px;
-  width:200px;
-  }
+.b7-2 img { width:100%;}
+
+.butt5
+{
+    padding: 10px 50px;
+    border-radius: 5px;
+    color: rgb(147, 201, 77);
+    border-color: yellowgreen;
+    background-color: white;
+
+}
+.a:focus{
+    background-color: green;
+}
+
   .button2{
       border-radius: 20px;
       width:400px;
   }
   
   .baner8
-  {  display :flex;
+
+  {   display :flex;
       background-color: gray;
       padding: 20px;
       margin: 20px, 20px;
       justify-content: center;
     
   }
+  .baner8 > div{
+      padding:10px;
+  }
+  .button1
+  {
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #5a5757;
+    color: white;
+    border: 2px solid;
+  }
+  .container6
+  {
+      width:900px;
+      margin: auto;
+  }
+  .banner9-up
+  {
+      padding-bottom: 40px;
+      color:white;
+  }
+  .banner9-up h4{
+    font-family: 'satisfy_regular';
+    color: white
+    
+
+  }
+  .banner9-down
+  {
+      display:flex;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      
+  }
+  .banner9-down h5{
+      color:white;
+  }
+  .banner9-down > div{
+      width: 30%;
+  }
 
   .baner9{
     background-color:darkgray;
   }
-
-  .baner9g
-  {
-      display: grid;
-      justify-content: center;
-      grid-template-columns: 400px 400px ;
-      padding: 20px 0;
-     
-      color:white;
-      
-  }
-  .b9{
+.b9up-up
+{
     display:flex;
+    padding-top: 25px;
+    
+    
+}
+.b9up-up > h4{
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+.b9up-down
+{
+    display :flex;
     justify-content: space-between;
-    width : 1000px ;
-    margin-left: 10%;
-    margin-right: 10%;
+    
+}
+  .b9-b1{
+      width:27%;
   }
-  .b9a{
-    padding: 20px;
-    margin: 100px, 100px;
-    box-sizing: border-box;
-    width :35%
+  .b9-con{
+      width:40%;
+
   }
+  
   .footer
   { 
       background-color: black;
+      
   }
   .footer1
   {
     display:flex;
     justify-content: space-between;
-    width : 1000px ;
-    margin-left: 10%;
-    margin-right: 10% 
+    width : 900px ;
+    margin:auto;
 }
 .f1 {
     margin: 10px 20px 20px 10px;
 }
- @media only screen and (max-width:"500px")
- {
-   .baner3{
-       display:none;
-   }
- }
+ 
